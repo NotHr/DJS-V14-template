@@ -2,6 +2,15 @@
 
 This is a Typescript template for a DiscordJS V14.0.0^
 
+### Steps to run the bot
+
+- Install dependencies with `npm`
+
+```bash
+npm install
+```
+- Rename `.example.env` to `.env` and edit the variables
+
 ## Live Version
 
 This page is not yet deployed.
