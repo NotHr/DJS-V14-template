@@ -7,8 +7,8 @@ export default class DJSClient extends Client {
   commands = new Collection();
   commandInterface = [];
   prefix = "!";
-  client_id = "1001346380142481458";
-  guild_id = "991674162697482260";
+  client_id = process.env.CLIENT_ID as string;
+  guild_id = process.env.GUILD_ID as string;
   constructor(options: ClientOptions) {
     super(options);
   }
